@@ -3,18 +3,17 @@
 body {
     font-family: 'Verdana', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("img/bg-casino.jpg");
-    background-size: contain;
-    padding: auto;
+    background-size: cover;
     text-align: center;
     color: white;
     font-weight: bold;
     height: 100vh; 
-    margin: 1em; 
+    margin: 0; 
 }
 
 h1 {
     color: goldenrod;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 #message-el {
@@ -29,6 +28,6 @@ h1 {
     background-color: goldenrod;
     padding: 8px 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 2px;
     margin: 2px;
 }
